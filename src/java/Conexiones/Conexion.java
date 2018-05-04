@@ -13,7 +13,7 @@ import java.sql.SQLException;
  *
  * @author manuel
  */
-public class ConexionLmfaEspias {
+public class Conexion {
     
     
         
