@@ -49,7 +49,7 @@ public class Asistente implements Serializable {
     private byte[] fotoAsistente;
     @JoinColumn(name = "idEvento", referencedColumnName = "idEvento")
     @ManyToOne
-    private Evento_1 idEvento;
+    private Evento idEvento;
 
     public Asistente() {
     }
@@ -114,11 +114,11 @@ public class Asistente implements Serializable {
         this.fotoAsistente = fotoAsistente;
     }
 
-    public Evento_1 getIdEvento() {
+    public Evento getIdEvento() {
         return idEvento;
     }
 
-    public void setIdEvento(Evento_1 idEvento) {
+    public void setIdEvento(Evento idEvento) {
         this.idEvento = idEvento;
     }
 
