@@ -4,9 +4,17 @@
         <servlet-name>ServletEvento</servlet-name>
         <servlet-class>modelos.com.ipn.mx.Control.ServletEvento</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>EventoServlet</servlet-name>
+        <servlet-class>com.ipn.mx.control.EventoServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletEvento</servlet-name>
         <url-pattern>/ServletEvento</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EventoServlet</servlet-name>
+        <url-pattern>/EventoServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
